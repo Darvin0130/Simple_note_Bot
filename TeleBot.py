@@ -12,7 +12,7 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 ch.setFormatter(formatter)
 logger.addHandler(ch)
 
-TOKEN = '6597731305:AAHHm32HczVqbFLK71TrJG-HDFVKwjuj8E8'
+TOKEN = 'Ваш Токен'
 bot = telebot.TeleBot(TOKEN)
 
 
